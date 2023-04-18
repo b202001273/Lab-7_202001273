@@ -103,3 +103,25 @@ We will get invalid date message when we enter 1-1-1900 as it is a valid input b
   </tr>
 </table>
 </br>
+
+# Section B
+
+![control_flow_graph](https://user-images.githubusercontent.com/75674184/232739432-805ebb7e-dbeb-4a9c-9d06-8a66fcb4cfe2.png)
+
+### 2. Test sets for each coverage criterion:
+
+a. Statement Coverage:
+- Test 1: p = {new Point(0, 0), new Point(1, 1)}
+- Test 2: p = {new Point(0, 0), new Point(1, 0), new Point(2, 0)}
+
+b. Branch Coverage:
+- Test 1: p = {new Point(0, 0), new Point(1, 1)}
+- Test 2: p = {new Point(0, 0), new Point(1, 0), new Point(2, 0)}
+- Test 3: p = {new Point(0, 0), new Point(1, 0), new Point(1, 1)}
+
+c. Basic Condition Coverage:
+- Test 1: p = {new Point(0, 0), new Point(1, 1)}
+- Test 2: p = {new Point(0, 0), new Point(1, 0), new Point(2, 0)}
+- Test 3: p = {new Point(0, 0), new Point(1, 0), new Point(1, 1)}
+- Test 4: p = {new Point(0, 0), new Point(1, 0), new Point(0, 1)}
+- Test 5: p = {new Point(0, 0), new Point(0, 1), new Point(1, 1)}
